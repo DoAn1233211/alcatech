@@ -1,0 +1,294 @@
+*{
+	margin:0px;
+	padding:0px;
+}
+body{
+	font:12px Tahoma, Geneva, sans-serif;
+	background:#000;
+}
+#container{
+	width:1000px;
+	margin:0px auto;
+}
+#header{
+	width:1000px;
+	height:130px;
+	background:#00F;
+	margin-bottom:5px;
+	position:relative;
+}
+#header img{
+	width:170px;
+	float:left;
+	border:none;
+	position:absolute;
+	top:10px;
+	left:10px;
+}
+#header ul{
+	position:absolute;
+	bottom:5px;
+	right:0px;
+	margin:0px;
+	padding:0px;
+	list-style-type:none;
+}
+#header ul li{
+	display:inline;
+}
+#header ul a{
+	width:80px;
+	height:12px;
+	padding:0px 5px;
+	line-height:12px;
+	display:block;
+	float:left;
+	text-align:center;
+	text-decoration:none;
+	color:#FFF;
+	border-left:1px solid #FFF;
+	font:11px Tahoma, Geneva, sans-serif;
+}
+#header ul a:hover{
+	color:#F90;
+}
+#content{
+	width:1000px;
+	margin-bottom:5px;
+	float:left;
+	background:#FFF;
+}
+#content #menuleft{
+	width:200px;
+	float:left;
+	background:#FFF;
+}
+#menuleft h3{
+	width:180px;
+	height:25px;
+	line-height:25px;
+	font-weight:bold;
+	padding-left:20px;
+	color:#FFF;
+	clear:left;
+	background:#00F;
+}
+#menuleft ul.nav{
+	margin:0px;
+	padding:0px;
+	list-style:none;
+}
+#menuleft ul.nav a{
+	width:160px;
+	height:23px;
+	line-height:23px;
+	display:block;
+	float:left;
+	background:#DDD;
+	padding-left:40px;
+	color:#00F;
+	font:13px Tahoma, Geneva, sans-serif;
+	text-decoration:none;
+	border-bottom:1px dashed #CCC;
+	background:#DDD url(../images/arrow.gif) no-repeat 25px 50%;
+}
+#menuleft ul.nav a:hover{
+	color:#00F;
+	background:#FF3 url(../images/arrow.gif) no-repeat 25px 50%;
+}
+.cls{
+	clear:left;
+}
+.detail{
+	width:753px;
+	padding:20px;
+}
+.detail table td{
+	font:12px verdana;
+	border:1px solid green;
+	text-align:center;
+	padding:2px 0px;
+}
+.detail a{
+	text-decoration:none;
+}
+.detail .phantrang{
+	margin-top:10px;
+	text-align:center;
+}
+.detail .ok{
+	border-bottom:1px dashed #CCC;
+	padding:20px 0px;
+	font-size:14px;
+	color:#F60;
+	margin-bottom:10px;
+}
+.detail .p{
+	text-align:justify;
+	font:12px Tahoma, Geneva, sans-serif;
+	color:#039;
+}
+table.none td{
+	border:none;
+}
+.pager{
+	width:450px;
+	text-align:center;
+	margin-top:10px;
+}
+.title{
+	background:green;
+	color:white;
+	font-weight:bold;
+	padding:4px 0px;
+}
+.magin{
+	padding:2px;
+	text-align:center;
+}
+.add_user{
+	text-align:center;
+}
+input:focus{
+	background:#F9EBCA;
+}
+ul#loi ul{
+	margin:0px;
+	padding:0px;
+	list-style:none
+}
+ul#loi li{
+	color:#F00;
+}
+.add_user table{
+	margin:30px auto;
+	font:12px verdana;
+	border:1px solid #F63;
+	padding:10px;
+}
+.add_user td{
+	padding:2px 0px;
+}
+.link{
+	font:11px verdana;
+	border:1px solid green;
+	padding:3px 5px;
+	margin:3px 3px 0px 0px;
+}
+
+.active{
+	font:11px verdana;
+	border:1px solid green;
+	padding:3px 5px;
+	margin:3px 3px 0px 0px;
+	font-weight:bold;
+	background:green;
+	color:white;
+}
+#cate_news{
+	width:100%;
+	margin:20px;
+}
+#categorie{
+	width:100%;
+	margin:20px;
+}
+#content #menuright{
+	width:795px;
+	float:left;
+	margin-left:5px;
+	background:#FFF;
+}
+#menuright h3{
+	width:775px;
+	margin:10px 0px;
+	color:#00F;
+	padding-left:20px;
+}
+#menuright .welcome{
+	width:775px;
+	text-align:justify;
+	padding-left:20px;
+}
+.welcome img{
+	width:180px;
+	padding:3px;
+	border:1px solid #CCC;
+	margin:0px 10px 10px 10px;
+}
+.welcome ul{
+	list-style:none;
+	margin:15px 0px 0px 40px;
+	padding:0px;
+}
+.welcome ul li{
+	color:#090;
+	height:20px;
+	line-height:20px;
+}
+#menuright .border_bottom{
+	border-bottom:1px dashed #CCC;
+	margin:20px 0px;
+}
+#list{
+	margin-top:5px;
+}
+#pay{
+	width:700px;
+	height:350px;
+	padding-top:20px;
+	margin:0px auto;
+	text-align:left;
+}
+#pay label{
+	color:#F60;
+	font:13px Tahoma, Geneva, sans-serif;
+}
+#pay .input{
+	border:1px solid #F96
+}
+#pay .padding{
+	padding:3px 5px;
+	color:#F60
+}
+#pay table.dis td{
+	font-weight:normal;
+	font:12px verdana;
+	border:1px solid green;
+	text-align:center;
+	padding:2px 0px;
+}
+#pay table a{
+	text-decoration:none;
+}
+#pay .border{
+	margin:30px 0px;
+	border-bottom:1px solid #DDD;
+}
+#payme{
+	padding-left:130px;
+}
+#payme label{
+	width:120px;
+	float:left;
+	display:block;
+	margin-bottom:5px;
+	font-size:12px;
+	font-weight:bold;
+}
+#payme .put{
+	margin-bottom:5px;
+}
+#footer{
+	width:1000px;
+	height:20px;
+	clear:left;
+	line-height:20px;
+	text-align:center;
+	color:#FFF;
+	background:#3E2810;
+}
+#footer a{
+	color:#FC0;
+	text-decoration:none;
+}

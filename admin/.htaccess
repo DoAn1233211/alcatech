@@ -1,0 +1,10 @@
+RewriteEngine on
+RewriteRule ^danh-muc.html$ index.php?mod=menu&act=list [L]
+RewriteRule ^thanh-vien.html$ index.php?mod=user&act=list [L]
+RewriteRule ^san-pham-ban-chay.html$ index.php?page=selling_products [L]
+RewriteRule ^tin-tuc.html$ index.php?page=news&act=list [L]
+RewriteRule ^huong-dan-mua-hang.html$ index.php?page=buying_guide [L]
+RewriteRule ^tuyen-dung.html$ index.php?page=recruitment&act=list [L]
+RewriteRule ^lien-he.html$ index.php?page=contact [L]
+
+RewriteRule ^[a-z_-]+/[a-z_-]+/([0-9]+).html$ index.php?page=product&act=list&cid=$1

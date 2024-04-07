@@ -1,0 +1,15 @@
+/*POPUP*/
+
+  #backgroundPopup{display:none;position:fixed;_position:absolute;height:100%;width:100%;top:0;left:0;background:#000000;border:1px solid #cecece;z-index:999;}
+  #popupContact{display:none;position:fixed;_position:absolute;height:504px;width:788px;border:0px solid #666;z-index:9991;padding:7px;font-size:13px;text-align:center;}
+  #popupContact div{text-align:right;}
+  #popupContact h1{text-align:left;color:#096;font-size:18px;font-weight:700;border-bottom:1px dotted #CCC;padding-bottom:2px;margin-bottom:20px;}
+  #popupContactClose{font-size:12px;line-height:16px;right:6px;top:4px;color:#ffffff;font-weight:700;}
+  #button{text-align:center;margin:100px;}
+  #popupContact .popupText{color:#FFFFFF;font-size:36px;font-weight:bold;line-height:57px;padding:150px 10px 0;text-align:center;z-index:9999}
+  #popupContact .popupLink{text-align:center;}
+  #popupContact .popupLink a{text-decoration:none;color:#999999;}
+  #popupContact .popupLink a:hover{color:#ffffff;}
+  #contactArea a img{max-width: 680px; max-height: 485px}
+  .detail-comment{margin-top:15px;}
+  #content_comment{border-top:5px solid #F0F0F0;margin:30px 0 10px 0;padding:0 0 10px;width:100%;}

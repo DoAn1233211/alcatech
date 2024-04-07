@@ -1,0 +1,45 @@
+ErrorDocument 404 /alcatech/404.html
+RewriteEngine on
+
+#RewriteCond %{HTTP_HOST} ^([a-z0-9\-]+)\.(com|net|vn|com\.vn|org|info)$ [NC]
+#RewriteRule ^(.*)$ http://%{HTTP_HOST}/$1 [R=301,L]
+
+RewriteRule ^trang-chu.html$ index.php?page=home [L]
+RewriteRule ^dang-ky.html$ index.php?page=register [L]
+RewriteRule ^dang-nhap.html$ index.php?page=login [L]
+RewriteRule ^gioi-thieu.html$ index.php?page=introduction [L]
+RewriteRule ^san-pham.html$ index.php?page=product&act=list [L]
+RewriteRule ^[a-z0-9-]+/p([0-9]+).html$ index.php?page=product&act=view&pid=$1
+RewriteRule ^tin-tuc.html$ index.php?page=news&act=list [L]
+RewriteRule ^tin-tuc+/[a-z0-9-]+/n([0-9]+).html$ index.php?page=news&act=view&nid=$1 [QSA,L]
+RewriteRule ^page+/[a-z0-9-]+/p([0-9]+).html$ index.php?page=page&act=view&pid=$1 [QSA,L]
+RewriteRule ^[a-z0-9-]+/ac([0-9]+).html$ index.php?page=news&act=list_cago&cid=$1 [QSA,L]
+RewriteRule ^[a-z0-9-]+/[a-z0-9-]+/n([0-9]+).html$ index.php?page=news&act=view&nid=$1 [QSA,L]
+RewriteRule ^lien-he.html$ index.php?page=contact [L]
+RewriteRule ^video.html$ index.php?page=video&act=list [L]
+RewriteRule ^gio-hang index.php?page=shopping&act=list [L]
+
+
+#security folder
+
+#ForceType application/octet-stream
+
+<FilesMatch "(?i)\.jpe?g$">
+
+    ForceType image/jpeg
+
+</FilesMatch>
+
+<FilesMatch "(?i)\.gif$">
+
+    ForceType image/gif
+
+</FilesMatch>
+
+<FilesMatch "(?i)\.png$">
+
+    ForceType image/png
+
+</FilesMatch>
+
+
